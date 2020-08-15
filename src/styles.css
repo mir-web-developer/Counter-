@@ -1,0 +1,97 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+  background: darkslateblue;
+  margin-top: 80px;
+}
+
+.container {
+  border: 1px solid white;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.num {
+  font-size: 115px;
+  font-weight: bold;
+  color: darkslateblue;
+  width: 80%;
+  height: 50%;
+  background-color: lightcyan;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  transition: color 250ms ease-in-out, transform 150ms ease;
+}
+
+.buttons {
+  width: 80%;
+  height: 20%;
+  border: 1px solid lightcyan;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.inc-button {
+  width: 35%;
+  height: 60%;
+  background: lightcyan;
+  position: relative;
+  left: -17px;
+  top: -75px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkslateblue;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+.reset-button {
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  outline: none;
+  border: none;
+  width: 35%;
+  height: 60%;
+  background: lightcyan;
+  position: relative;
+  left: 17px;
+  bottom: 75px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkslateblue;
+  cursor: pointer;
+}
+.reset-button:active {
+  outline: none;
+  border: none;
+  transform: scale(0.9);
+}
+.reset-button:hover {
+  opacity: 0.5;
+}
+.inc-button:hover {
+  opacity: 0.5;
+}
+.inc-button:active {
+  border: none;
+  outline: none;
+  transform: scale(0.9);
+}
+.inc-button:focus {
+  border: none;
+}
+.disabled {
+  opacity: 0.5;
+}
+
+.more-than-5 {
+  color: lightcoral;
+}
